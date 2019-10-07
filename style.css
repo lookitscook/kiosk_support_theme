@@ -473,7 +473,7 @@ ul {
 
 .nav-wrapper a {
   border: 0;
-  color: $link_color;
+  color: white;
   display: none;
   font-size: 12px;
   font-weight: 600;
@@ -493,7 +493,7 @@ ul {
 
 .nav-wrapper a:hover, .nav-wrapper a:focus, .nav-wrapper a:active {
   background-color: transparent;
-  color: $link_color;
+  color: white;
   text-decoration: underline;
 }
 
@@ -503,7 +503,7 @@ ul {
 
 .nav-wrapper .icon-menu {
   border: 0;
-  color: $link_color;
+  color: white;
   cursor: pointer;
   display: inline-block;
   margin-right: 10px;
@@ -524,7 +524,7 @@ ul {
 
 .nav-wrapper .icon-menu:hover, .nav-wrapper .icon-menu:focus, .nav-wrapper .icon-menu:active {
   background-color: transparent;
-  color: $link_color;
+  color: white;
 }
 
 /***** User info in header *****/
