@@ -1,17 +1,24 @@
 /***** Header *****/
-$header-height: 71px;
+$header-height: 34px;
 
 .header {
-  @include max-width-container;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   position: relative;
   align-items: center;
   display: flex;
   height: $header-height;
   justify-content: space-between;
+  background-color: #67ea4b;
 }
 
 .logo img {
   max-height: 37px;
+}
+
+.header .user-nav > a, .header .user-nav > a:hover{
+  color: white;
 }
 
 .user-nav {
@@ -45,7 +52,8 @@ $header-height: 71px;
     border: 0;
     color: $link_color;
     display: none;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 600;
     padding: 0 20px 0 0;
     width: auto;
 

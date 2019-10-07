@@ -425,25 +425,23 @@ ul {
 
 /***** Header *****/
 .header {
-  max-width: 1160px;
-  margin: 0 auto;
-  padding: 0 5%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   position: relative;
   align-items: center;
   display: flex;
-  height: 71px;
+  height: 34px;
   justify-content: space-between;
-}
-
-@media (min-width: 1160px) {
-  .header {
-    padding: 0;
-    width: 90%;
-  }
+  background-color: #67ea4b;
 }
 
 .logo img {
   max-height: 37px;
+}
+
+.header .user-nav > a, .header .user-nav > a:hover {
+  color: white;
 }
 
 .user-nav {
@@ -464,7 +462,7 @@ ul {
   border: solid 1px #ddd;
   right: 0;
   left: 0;
-  top: 71px;
+  top: 34px;
   z-index: 1;
 }
 
@@ -477,7 +475,8 @@ ul {
   border: 0;
   color: $link_color;
   display: none;
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 600;
   padding: 0 20px 0 0;
   width: auto;
 }
@@ -545,19 +544,19 @@ ul {
 
 .user-info > [role="button"] {
   border: 0;
-  color: $link_color;
+  color: white;
   min-width: 0;
   padding: 0;
   white-space: nowrap;
 }
 
 .user-info > [role="button"]:hover, .user-info > [role="button"]:focus {
-  color: $link_color;
+  color: white;
   background-color: transparent;
 }
 
 .user-info > [role="button"]::after {
-  color: $link_color;
+  color: white;
   padding-right: 15px;
 }
 
@@ -568,7 +567,8 @@ ul {
 
 #user #user-name {
   display: none;
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 @media (min-width: 768px) {
@@ -607,13 +607,13 @@ ul {
   bottom: -4px;
   color: $brand_text_color;
   content: "\1F464";
-  font-size: 14px;
-  height: 14px;
-  line-height: 14px;
+  font-size: 12px;
+  height: 12px;
+  line-height: 12px;
   position: absolute;
   right: -2px;
   text-align: center;
-  width: 14px;
+  width: 12px;
 }
 
 /***** Footer *****/
